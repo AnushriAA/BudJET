@@ -11,6 +11,12 @@
 		BD86ED732C29F5C700C5054B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86ED722C29F5C700C5054B /* ContentView.swift */; };
 		BD86ED752C29F5C800C5054B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86ED742C29F5C800C5054B /* Assets.xcassets */; };
 		BD86ED782C29F5C800C5054B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86ED772C29F5C800C5054B /* Preview Assets.xcassets */; };
+		BD86ED9D2C2B342500C5054B /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86ED9C2C2B342500C5054B /* Destination.swift */; };
+		BD86ED9F2C2B345400C5054B /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86ED9E2C2B345400C5054B /* Budget.swift */; };
+		BD86EDA12C2B348600C5054B /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86EDA02C2B348600C5054B /* Categories.swift */; };
+		BD86EDA32C2B349900C5054B /* Withdraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86EDA22C2B349900C5054B /* Withdraw.swift */; };
+		BD86EDA52C2B34B300C5054B /* UpdatedCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86EDA42C2B34B300C5054B /* UpdatedCategories.swift */; };
+		BD86EDA72C2B34C700C5054B /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86EDA62C2B34C700C5054B /* InfoPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		BD86ED722C29F5C700C5054B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD86ED742C29F5C800C5054B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD86ED772C29F5C800C5054B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD86ED9C2C2B342500C5054B /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		BD86ED9E2C2B345400C5054B /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		BD86EDA02C2B348600C5054B /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		BD86EDA22C2B349900C5054B /* Withdraw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Withdraw.swift; sourceTree = "<group>"; };
+		BD86EDA42C2B34B300C5054B /* UpdatedCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedCategories.swift; sourceTree = "<group>"; };
+		BD86EDA62C2B34C700C5054B /* InfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				BD86ED702C29F5C700C5054B /* BudJETApp.swift */,
 				BD86ED722C29F5C700C5054B /* ContentView.swift */,
+				BD86ED9C2C2B342500C5054B /* Destination.swift */,
+				BD86EDA02C2B348600C5054B /* Categories.swift */,
+				BD86EDA22C2B349900C5054B /* Withdraw.swift */,
+				BD86EDA42C2B34B300C5054B /* UpdatedCategories.swift */,
+				BD86EDA62C2B34C700C5054B /* InfoPage.swift */,
+				BD86ED9E2C2B345400C5054B /* Budget.swift */,
 				BD86ED742C29F5C800C5054B /* Assets.xcassets */,
 				BD86ED762C29F5C800C5054B /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD86EDA52C2B34B300C5054B /* UpdatedCategories.swift in Sources */,
 				BD86ED732C29F5C700C5054B /* ContentView.swift in Sources */,
+				BD86EDA72C2B34C700C5054B /* InfoPage.swift in Sources */,
 				BD86ED712C29F5C700C5054B /* BudJETApp.swift in Sources */,
+				BD86EDA12C2B348600C5054B /* Categories.swift in Sources */,
+				BD86ED9F2C2B345400C5054B /* Budget.swift in Sources */,
+				BD86ED9D2C2B342500C5054B /* Destination.swift in Sources */,
+				BD86EDA32C2B349900C5054B /* Withdraw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
